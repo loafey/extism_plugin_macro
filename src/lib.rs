@@ -174,6 +174,7 @@ fn get_plugin_calls(item: TS) -> TS {
                     use anyhow::Result;
                     use std::sync::Arc;
                     use tokio::sync::Mutex;
+                    use super::*;
                     #res
                 }
             }
