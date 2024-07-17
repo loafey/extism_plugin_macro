@@ -1,0 +1,4 @@
+use flake >> .envrc
+        direnv allow
+        echo .direnv/ >> .gitignore
+        echo target/
